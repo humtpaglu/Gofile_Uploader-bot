@@ -13,9 +13,9 @@ import time
 load_dotenv()
 
 # ===== WOODcraft ==== SudoR2spr ====
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_ID = int(os.getenv("API_ID" "23897874"))
+API_HASH = os.getenv("API_HASH" "ec91dd01da9693911a6ee4af5d0bef2c")
+BOT_TOKEN = os.getenv("BOT_TOKEN" "7275898574:AAFdSHor5KPhhefKJE62JYTvyur9CE1YHaM")
 
 if not API_ID or not API_HASH or not BOT_TOKEN:
     raise ValueError("API_ID, API_HASH, and BOT_TOKEN must be set.")
